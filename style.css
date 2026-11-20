@@ -1,0 +1,39 @@
+input[type=message], input[type=email], input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 18px; /* Some padding */ 
+  border: 5px solid #ccc; /* Gray border */
+  border-radius: 6px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 8px; /* Add a top margin */
+  margin-bottom: 20px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=file_uploader]{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 50px;
+}
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
