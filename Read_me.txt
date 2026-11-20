@@ -43,7 +43,7 @@ Follow these steps to install the SOG Predictor:
 
 1. Download the Phase-II-prediction-main directory or clone the repository using the command:
 
-   `gh repo clone Dixit-s-lab/Phase-II-prediction`
+   `gh repo clone Dixit-s-lab/SOG Predictor`
 
 2. Extract the downloaded archive, if applicable:
 
