@@ -1,5 +1,6 @@
 import streamlit as st
-from server_test.predict import prediction
+#from server_test.predict import prediction
+from predict import prediction
 from home import home_page
 from contact import contact_page
 from details import detail_page
